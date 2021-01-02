@@ -4,12 +4,16 @@
   "description": "script by txreq",
   "main": "client.js",
   "scripts": {
-    "test": "start"
+    "start": "node client.js"
+  },
+  "engines": {
+    "node": "12.x"
   },
   "author": "Tareq Dev",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
+    "start": "^5.1.0",
     "steam-user": "^4.19.0"
   }
 }

@@ -4,7 +4,8 @@ const {red, green, yellow} = require('colors')
 const config = require('./config.json')
 const logOnOptions = {
     accountName: config.user,
-    password: config.pass
+    password: config.pass,
+    twoFactorCode: 'PX2QV',
 };
 
 client.logOn(logOnOptions);
@@ -16,7 +17,7 @@ client.on("loggedOn", () => {
         client.gamesPlayed(["Made By Txreq",730]); 
         console.log(green("Hourboost started !"));
     } catch (error) {
-        console.log(red(`Error while starting hourboost :( \n\n ${error} \n\n`));
+        console.log(red(`Error while starting hourboost :(`));
     }
      
 });

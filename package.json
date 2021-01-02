@@ -1,0 +1,16 @@
+{
+  "name": "csgohourboost",
+  "version": "1.0.0",
+  "description": "script by txreq",
+  "main": "client.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Tareq Dev",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "steam-user": "^4.19.0"
+  }
+}
